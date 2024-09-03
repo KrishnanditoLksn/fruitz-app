@@ -13,7 +13,7 @@
         android:background="@color/white"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-57dp">
+        tools:layout_editor_absoluteX="0dp">
 
         <ImageView
             android:id="@+id/imageView"
@@ -46,5 +46,19 @@
             android:textSize="30sp"
             android:textStyle="bold">
         </TextView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="162dp"
+            android:layout_marginBottom="-166dp"
+            android:text="@string/button"
+            android:textColor="@color/cardview_dark_background"
+            android:onClick="onNextPage"
+            >
+        </Button>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
