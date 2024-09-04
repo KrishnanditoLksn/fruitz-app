@@ -13,9 +13,12 @@
         android:theme="@style/Theme.Fruitz"
         tools:targetApi="31">
         <activity
+            android:name=".NextFruit"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.Fruitz"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Fruitz">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
