@@ -55,10 +55,10 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="162dp"
             android:layout_marginBottom="-166dp"
-            android:text="@string/button"
-            android:textColor="@color/cardview_dark_background"
             android:onClick="onNextPage"
-            >
+            android:text="@string/button"
+            android:textColor="@color/white"
+            android:textStyle="bold">
         </Button>
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
