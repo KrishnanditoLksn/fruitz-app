@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         setContentView(R.layout.activity_main)
         nextBtn = findViewById(R.id.button)
         nextBtn.setOnClickListener(this)
+
+        Utils.changeStatusBarColor(window , "#a9deac")
     }
 
     override fun onClick(p0: View?) {

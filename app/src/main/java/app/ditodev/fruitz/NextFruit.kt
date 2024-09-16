@@ -30,6 +30,8 @@ class NextFruit : AppCompatActivity(), View.OnClickListener {
 
         btnConstraintApple = findViewById(R.id.btnConstraintApple)
         btnConstraintApple.setOnClickListener(this)
+
+        Utils.changeStatusBarColor(window , "#3498db")
     }
 
     override fun onClick(p0: View?) {
