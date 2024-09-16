@@ -2,15 +2,31 @@
     <!-- Base application theme. -->
     <style name="Theme.Fruitz" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
+        <item name="colorOnPrimary">#85AA87</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@android:color/holo_green_dark</item>
+        <item name="android:statusBarColor">@android:color/holo_purple</item>
         <!-- Customize your theme here. -->
+
+
+<!--        <style name="ButtonGeneral">-->
+<!--            <item name="android:layout_width">match_parent</item>-->
+<!--            <item name="android:layout_height">wrap_content</item>-->
+<!--            <item name="android:layout_marginRight">16dp</item>-->
+<!--            <item name="android:layout_marginLeft">16dp</item>-->
+<!--            <item name="android:layout_marginBottom">16dp</item>-->
+<!--        </style>-->
+
+
+<!--        <style name="ButtonGeneral.SecondaryVariant">-->
+<!--            <item name="android:backgroundTint">@color/orange</item>-->
+<!--            <item name="android:textColor">@color/white</item>-->
+<!--            <item name="android:textStyle">bold</item>-->
+<!--        </style>-->
     </style>
 </resources>

@@ -2,4 +2,21 @@
     <string name="app_name">Fruitz</string>
     <string name="textview">Semangka</string>
     <string name="desc">Gambar Buah Semangka</string>
+    <string name="button">Pindah</string>
+    <string name="description">Orange itu jeruk</string>
+    <string name="orange">Orange</string>
+    <string name="shape">Shape : </string>
+    <string name="round">Round</string>
+    <string name="orange_ciri">An orange, also called sweet orange to distinguish it from the bitter orange,is the fruit of a tree in the family Rutaceae.</string>
+    <string name="buah_jeruk_warna_oren">Buah jeruk warna oren \n</string>
+    <string name="latin_name">Latin Name :</string>
+    <string name="malus_pumila">Malus pumila</string>
+    <string name="citrus_sinensis">Citrus sinensis</string>
+    <string name="ke_home">Ke Home</string>
+    <string name="constraint_apple">Constraint Apple Screen</string>
+    <string name="apple_image">Apple Image</string>
+    <string name="apple">Apple</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="roundish">roundish</string>
+    <string name="apple_desc">An apple is a round, edible fruit produced by an apple tree (Malus spp., among them the domestic or orchard apple; Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</string>
 </resources>
