@@ -7,8 +7,9 @@ import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() , View.OnClickListener {
-    private lateinit var nextBtn : Button
+class MainActivity : AppCompatActivity(), View.OnClickListener {
+    private lateinit var nextBtn: Button
+    private lateinit var btnFruitsList: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -16,13 +17,24 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         nextBtn = findViewById(R.id.button)
         nextBtn.setOnClickListener(this)
 
-        Utils.changeStatusBarColor(window , "#a9deac")
+        btnFruitsList = findViewById(R.id.btnLists)
+        btnFruitsList.setOnClickListener(this)
+        Utils.changeStatusBarColor(window, "#a9deac")
     }
 
     override fun onClick(p0: View?) {
-        if (p0?.id != null){
-            val intents = Intent(this@MainActivity , NextFruit::class.java)
-            startActivity(intents)
+        if (p0?.id != null) {
+            when (p0.id) {
+                R.id.button -> {
+                    val intents = Intent(this@MainActivity, NextFruit::class.java)
+                    startActivity(intents)
+                }
+
+                R.id.btnLists -> {
+                    val btnLists = Intent(this@MainActivity, FruitsRecyclerview::class.java)
+                    startActivity(btnLists)
+                }
+            }
         }
     }
 
