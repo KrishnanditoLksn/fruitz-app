@@ -19,4 +19,28 @@
     <string name="back_to_home">Back to Home</string>
     <string name="roundish">roundish</string>
     <string name="apple_desc">An apple is a round, edible fruit produced by an apple tree (Malus spp., among them the domestic or orchard apple; Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</string>
+    <string name="fruit_lists">Fruit Lists</string>
+    <string name="fruistslists">fruistsLists</string>
+    <string name="list_buah">list_buah</string>
+    <string name="fruits_name">Fruits Name</string>
+
+    <string-array name="data_name">
+        <item>Durian</item>
+        <item>Pisang</item>
+        <item>Stroberi</item>
+    </string-array>
+    
+    
+    <string-array name="data_description">
+        <item>The fruit is spherical and 15 to 20 cm (6 to 8 inches) in diameter</item>
+        <item>long, curved fruits with smooth, yellow, and sometimes slightly green skin.</item>
+        <item>a low-growing, flowering plant and also the name of the fruit that it produces</item>
+    </string-array>
+
+
+    <string-array name="data_photos">
+        <item>@drawable/durian</item>
+        <item>@drawable/pisang</item>
+        <item>@drawable/stroberi</item>
+    </string-array>
 </resources>
