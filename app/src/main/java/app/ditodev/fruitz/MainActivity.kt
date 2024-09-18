@@ -1,6 +1,8 @@
 package app.ditodev.fruitz
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -19,7 +21,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         btnFruitsList = findViewById(R.id.btnLists)
         btnFruitsList.setOnClickListener(this)
-        Utils.changeStatusBarColor(window, "#a9deac")
+        Utils.changeStatusBarColor(window, "#3498db")
+
+        supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.rgb(255, 99, 71)))
+        supportActionBar!!.title = "Home Page"
     }
 
     override fun onClick(p0: View?) {
@@ -37,5 +42,4 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
-
 }
