@@ -5,23 +5,22 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import app.ditodev.fruitz.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var nextBtn: Button
-    private lateinit var btnFruitsList: Button
+    private lateinit var mainBinding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        nextBtn = findViewById(R.id.button)
-        nextBtn.setOnClickListener(this)
+        mainBinding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(mainBinding.root)
 
-        btnFruitsList = findViewById(R.id.btnLists)
-        btnFruitsList.setOnClickListener(this)
+        mainBinding.button.setOnClickListener(this)
+        mainBinding.btnLists.setOnClickListener(this)
         Utils.changeStatusBarColor(window, "#3498db")
+
 
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.rgb(255, 99, 71)))
         supportActionBar!!.title = "Home Page"
