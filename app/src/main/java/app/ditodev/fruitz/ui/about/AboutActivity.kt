@@ -1,4 +1,4 @@
-package app.ditodev.fruitz
+package app.ditodev.fruitz.ui.about
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import app.ditodev.fruitz.R
 import app.ditodev.fruitz.databinding.ActivityAboutBinding
 
 class AboutActivity : AppCompatActivity() {
