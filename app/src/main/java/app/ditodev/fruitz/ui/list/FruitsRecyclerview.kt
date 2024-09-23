@@ -1,4 +1,4 @@
-package app.ditodev.fruitz
+package app.ditodev.fruitz.ui.list
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,15 +7,18 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import app.ditodev.fruitz.R
 import app.ditodev.fruitz.adapter.FruitListsAdapter
 import app.ditodev.fruitz.data.Fruit
+import app.ditodev.fruitz.ui.about.AboutActivity
+import app.ditodev.fruitz.ui.detail.DetailActivity
+import app.ditodev.fruitz.utils.Utils
 
 class FruitsRecyclerview : AppCompatActivity() {
     private lateinit var fruitRv: RecyclerView
@@ -31,7 +34,6 @@ class FruitsRecyclerview : AppCompatActivity() {
         }
 
         fruitRv = findViewById(R.id.rv_fruits)
-//        Log.d("MainActivity", fruitRv.toString())
         fruitRv.setHasFixedSize(true)
 
         Utils.changeStatusBarColor(window, "#3498db")
@@ -64,7 +66,7 @@ class FruitsRecyclerview : AppCompatActivity() {
 
         listAdapter.setOnItemClickCallback(object : FruitListsAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Fruit) {
-                showSelectedFruits(data)
+                showDetailFruits(data)
             }
         })
     }
@@ -76,7 +78,7 @@ class FruitsRecyclerview : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_list -> {
+            R.id.about_page -> {
                 val linkToAbout = Intent(this@FruitsRecyclerview, AboutActivity::class.java)
                 startActivity(linkToAbout)
             }
@@ -84,7 +86,10 @@ class FruitsRecyclerview : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    private fun showSelectedFruits(fruits: Fruit) {
-        Toast.makeText(this, "You Selected " + fruits.name, Toast.LENGTH_SHORT).show()
+
+    private fun showDetailFruits(fruits: Fruit) {
+        val detail = Intent(this@FruitsRecyclerview, DetailActivity::class.java)
+        detail.putExtra(Utils.EXTRA_DATA, fruits)
+        startActivity(detail)
     }
 }
