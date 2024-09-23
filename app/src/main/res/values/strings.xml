@@ -23,18 +23,40 @@
     <string name="fruistslists">fruistsLists</string>
     <string name="list_buah">list_buah</string>
     <string name="fruits_name">Fruits Name</string>
+    <string name="about">About</string>
+    <string name="user_image">User Image</string>
+    <string name="saitama_the_legend">Saitama the Legend</string>
+    <string name="email">laksanakrishnandito@gmail.com</string>
+    <string name="my_name">Emmanuel Krishnandito Laksana</string>
+    <string name="detail_name">Detail Name</string>
+    <string name="image_of_detail_fruits">Image of Detail Fruits</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nisi aliquam, iaculis nisl a, semper arcu. Nullam auctor neque velit, at congue enim tincidunt nec. Praesent scelerisque mi sit amet viverra lobortis. Sed nisl felis, eleifend quis consequat quis, feugiat vitae lectus. Praesent dictum tempus bibendum. Sed iaculis turpis velit, et convallis turpis cursus quis. Integer ultricies velit libero, sed congue odio ornare quis.</string>
 
     <string-array name="data_name">
         <item>Durian</item>
         <item>Pisang</item>
         <item>Stroberi</item>
+        <item>Apel</item>
+        <item>Jeruk</item>
+        <item>Mangga</item>
+        <item>Nanas</item>
+        <item>Anggur</item>
+        <item>Kiwi</item>
+        <item>Semangka</item>
     </string-array>
-    
-    
+
+
     <string-array name="data_description">
-        <item>The fruit is spherical and 15 to 20 cm (6 to 8 inches) in diameter</item>
-        <item>long, curved fruits with smooth, yellow, and sometimes slightly green skin.</item>
-        <item>a low-growing, flowering plant and also the name of the fruit that it produces</item>
+        <item>Durian is a tropical fruit known for its strong odor and thorn-covered husk. It is often referred to as the "king of fruits" and is highly prized in Southeast Asia. The fruit is spherical and 15 to 20 cm (6 to 8 inches) in diameter, with a creamy, custard-like flesh that is rich in flavor and nutrients.</item>
+        <item>Pisang, or banana, is a long, curved fruit with smooth, yellow skin that is sometimes slightly green. Bananas are a staple fruit in many parts of the world and are known for their sweet taste and high potassium content. They are often eaten raw, used in desserts, or cooked in various dishes.</item>
+        <item>Stroberi, or strawberry, is a low-growing, flowering plant that produces a red, juicy fruit. Strawberries are known for their sweet flavor and are commonly eaten fresh, used in desserts, or made into jams and preserves. They are rich in vitamins, antioxidants, and fiber.</item>
+        <item>Apel, or apple, is a round fruit with a green or red skin and crisp white flesh. Apples are one of the most widely cultivated fruits in the world and come in many varieties. They are often eaten raw, used in cooking and baking, or made into cider. Apples are known for their health benefits, including high fiber and vitamin C content.</item>
+        <item>Jeruk, or orange, is a citrus fruit that is typically orange in color and very juicy. Oranges are known for their sweet and tangy flavor and are a popular source of vitamin C. They can be eaten fresh, juiced, or used in various culinary dishes and desserts.</item>
+        <item>Mangga, or mango, is a tropical fruit with a sweet flavor and a large pit in the center. Mangoes have a smooth, yellow to red skin and juicy, orange flesh. They are often eaten fresh, used in smoothies, or incorporated into savory dishes. Mangoes are rich in vitamins A and C, as well as dietary fiber.</item>
+        <item>Nanas, or pineapple, is a sweet and tangy fruit with a spiky exterior and yellow flesh. Pineapples are known for their unique flavor and are often eaten fresh, juiced, or used in cooking and baking. They are a good source of vitamins, enzymes, and antioxidants.</item>
+        <item>Anggur, or grape, is a small, round fruit that can be purple, green, or red. Grapes are often eaten fresh, dried into raisins, or used to make wine. They are known for their sweet flavor and are rich in vitamins, antioxidants, and other beneficial compounds.</item>
+        <item>Kiwi is a small, fuzzy fruit with bright green flesh and a sweet-tart flavor. Kiwis are often eaten fresh, used in fruit salads, or made into juices. They are rich in vitamins C and K, as well as dietary fiber and antioxidants.</item>
+        <item>Semangka, or watermelon, is a large, sweet fruit with a hard rind and juicy, red or pink flesh. Watermelons are known for their refreshing taste and high water content, making them a popular summer fruit. They are also a good source of vitamins A and C, as well as antioxidants.</item>
     </string-array>
 
 
@@ -42,5 +64,17 @@
         <item>@drawable/durian</item>
         <item>@drawable/pisang</item>
         <item>@drawable/stroberi</item>
+        <item>@drawable/durian</item>
+        <item>@drawable/pisang</item>
+        <item>@drawable/stroberi</item>
+        <item>@drawable/durian</item>
+        <item>@drawable/pisang</item>
+        <item>@drawable/stroberi</item>
+        <item>@drawable/stroberi</item>
     </string-array>
+
+<!--    <string-array name="data_categories">-->
+<!--        <item></item>-->
+<!--    </string-array>-->
+
 </resources>
