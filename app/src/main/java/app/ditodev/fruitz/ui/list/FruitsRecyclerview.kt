@@ -39,6 +39,7 @@ class FruitsRecyclerview : AppCompatActivity() {
         Utils.changeStatusBarColor(window, "#3498db")
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.rgb(225, 99, 50)))
         supportActionBar!!.title = "Fruits List"
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         list.addAll(getFruitLists())
         showLists()
     }
@@ -59,6 +60,10 @@ class FruitsRecyclerview : AppCompatActivity() {
         return listsFruits
     }
 
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressedDispatcher.onBackPressed()
+        return true
+    }
     private fun showLists() {
         fruitRv.layoutManager = LinearLayoutManager(this)
         val listAdapter = FruitListsAdapter(list)

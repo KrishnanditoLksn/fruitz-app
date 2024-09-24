@@ -22,6 +22,12 @@ class AboutActivity : AppCompatActivity() {
         }
 
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.rgb(255,99 , 71 )))
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         supportActionBar!!.setTitle(R.string.about)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressedDispatcher.onBackPressed()
+        return true
     }
 }
