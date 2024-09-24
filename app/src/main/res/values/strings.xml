@@ -31,6 +31,7 @@
     <string name="detail_name">Detail Name</string>
     <string name="image_of_detail_fruits">Image of Detail Fruits</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nisi aliquam, iaculis nisl a, semper arcu. Nullam auctor neque velit, at congue enim tincidunt nec. Praesent scelerisque mi sit amet viverra lobortis. Sed nisl felis, eleifend quis consequat quis, feugiat vitae lectus. Praesent dictum tempus bibendum. Sed iaculis turpis velit, et convallis turpis cursus quis. Integer ultricies velit libero, sed congue odio ornare quis.</string>
+    <string name="share">Share</string>
 
     <string-array name="data_name">
         <item>Durian</item>
@@ -64,13 +65,13 @@
         <item>@drawable/durian</item>
         <item>@drawable/pisang</item>
         <item>@drawable/stroberi</item>
-        <item>@drawable/durian</item>
-        <item>@drawable/pisang</item>
-        <item>@drawable/stroberi</item>
-        <item>@drawable/durian</item>
-        <item>@drawable/pisang</item>
-        <item>@drawable/stroberi</item>
-        <item>@drawable/stroberi</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/mango</item>
+        <item>@drawable/pineapple</item>
+        <item>@drawable/grape</item>
+        <item>@drawable/kiwi</item>
+        <item>@drawable/watermelon</item>
     </string-array>
 
 <!--    <string-array name="data_categories">-->
