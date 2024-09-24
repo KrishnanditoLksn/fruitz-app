@@ -5,8 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FruitsRecyclerview"
+    tools:context=".ui.list.FruitsRecyclerview"
     android:background="@color/white">
+<!--    android:orientation="vertical"-->
+<!--    >-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_fruits"
